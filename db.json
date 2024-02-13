@@ -1,9 +1,64 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cities": [
+    {
+      "name": "New York",
+      "country": "US",
+      "current": {
+        "temperature": 22,
+        "description": "Cloudy",
+        "humidity": 70,
+        "wind_speed": 10
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 20,
+          "temperature_max": 25,
+          "description": "Partly cloudy"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 18,
+          "temperature_max": 27,
+          "description": "Sunny"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 22,
+          "temperature_max": 29,
+          "description": "Mostly cloudy"
+        }
+      ]
+    },
+    {
+      "name": "London",
+      "country": "GB",
+      "current": {
+        "temperature": 15,
+        "description": "Rain",
+        "humidity": 80,
+        "wind_speed": 15
+      },
+      "forecast": [
+        {
+          "date": "2024-02-13",
+          "temperature_min": 12,
+          "temperature_max": 17,
+          "description": "Rain"
+        },
+        {
+          "date": "2024-02-14",
+          "temperature_min": 10,
+          "temperature_max": 14,
+          "description": "Cloudy"
+        },
+        {
+          "date": "2024-02-15",
+          "temperature_min": 13,
+          "temperature_max": 18,
+          "description": "Rain"
+        }
+      ]
+    }
+  ]
 }
